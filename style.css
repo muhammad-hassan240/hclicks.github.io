@@ -1,0 +1,262 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.my-logo1 {
+    font-size: 55px;
+    font-family: 'Poppins', cursive;
+    letter-spacing: 8px;
+    justify-content: center;
+    color: #000;
+}
+
+@media screen and (max-width: 768px) {
+    ul.title-menu.list-inline.d-flex.justify-content-center.my-3 {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .my-logo {
+        display: block !important;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000;
+}
+
+.my-logo:hover {
+    color: #000;
+}
+
+.logo {
+    height: 70px;
+}
+
+#navbarNav a {
+    font-size: 25px;
+    transition: all 0.8s;
+    border-radius: 6px;
+    font-family: 'Poppins', cursive;
+    display: block !important;
+}
+
+#navbarNav li a:hover {
+    background: linear-gradient(to bottom, rgb(102, 99, 99), rgb(0, 0, 0));
+    color: white;
+}
+
+.navbar {
+    background: linear-gradient(to right, rgba(242, 242, 247, 0.3), rgba(230, 226, 226, 0.3));
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+.dropdown-item {
+    color: #000 !important;
+}
+
+.dropdown-item:hover {
+    background-color: #000 !important;
+    color: white !important;
+}
+
+.fa-bars {
+    color: rgb(3, 3, 3);
+    font-size: 30px !important;
+}
+
+.social-links li a i {
+    font-size: 25px;
+    color: #1b1b1b;
+}
+
+.title-menu a {
+    text-decoration: none;
+    font-family: 'Poppins', cursive;
+    font-size: 23px;
+    color: #000;
+    transition: all 0.8s;
+    border-radius: 6px;
+    padding: 6px 8px;
+}
+
+.title-menu li a:hover {
+    background-color: #1b1b1b;
+    color: white;
+}
+
+.carousel-inner .img-fluid {
+    height: 850px;
+}
+
+.carousel-caption {
+    top: 30%;
+    bottom: auto;
+    background: rgba(255, 255, 255, 0.3);
+    color: black;
+    display: none !important;
+}
+
+.carousel-caption button {
+    color: black;
+    background: white;
+    border: none;
+    transition: all 0.8s;
+    font-family: 'Poppins', cursive;
+    font-size: 20px;
+}
+
+.carousel-caption button:hover {
+    background-color: black;
+    color: white;
+}
+
+#work-row {
+    background: url(images/sea-wave.jpg) no-repeat center center/cover;
+}
+
+#pic-section .card {
+    border: none !important;
+}
+
+#outer-heading {
+    font-family: 'Teko', sans-serif;
+}
+
+#outer-heading h1 {
+    font-size: 50px;
+}
+
+.card-image {
+    transition: all 0.6s;
+    transform: scale(1);
+    cursor: pointer;
+}
+
+.card-image:hover {
+    transform: scale(1.04);
+}
+
+#outer-heading p {
+    font-size: 40px;
+}
+
+#pic-section button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card p {
+    background: rgba(242, 242, 247, 0.3);
+    padding: 12px;
+    border-radius: 8px;
+}
+
+#work-content h1 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    font-family: Poppins;
+    color: #fff;
+    font-size: 35px;
+}
+
+#work-content {
+    background: linear-gradient( to right, rgba(27, 91, 165, 0.4), rgba(240, 235, 235, 0.4));
+    border-radius: 12px;
+}
+
+#work-content p {
+    font-family: 'Poppins', sans-serif;
+}
+
+#contact-bg {
+    background: url(images/dark.jpg) no-repeat center center/cover;
+}
+
+#email-id {
+    background: linear-gradient( to right, rgba(27, 91, 165, 0.4), rgba(240, 235, 235, 0.4));
+    border-radius: 8px;
+}
+
+.form-group {
+    color: white;
+}
+
+#hire-title {
+    border-bottom: 4px solid #ffffff;
+}
+
+#footer-row {
+    margin-top: 5%;
+}
+
+#news-row a {
+    text-decoration: none;
+    color: black;
+}
+
+#news-row img {
+    border-radius: 5px;
+}
+
+#footer-nav li {
+    padding-bottom: 4%;
+}
+
+#footer-nav a,
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+#footer-nav a {
+    font-size: 20px;
+    transition: all 0.6s;
+    padding: 8px;
+    text-align: center;
+    color: black;
+}
+
+#footer-nav a:hover {
+    color: rgb(43, 42, 42);
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#instagram img {
+    border-radius: 6px;
+}
+
+
+/* #footer-section{
+    background: linear-gradient(to right, rgba(203, 203, 206, 0.3),rgba(214, 212, 212, 0.3));
+} */
+
+#footer-section p {
+    font-size: 16px;
+}
+
+#footer-icon i {
+    font-size: 35px !important;
+}
+
+.footer-icon {
+    font-size: 25px !important;
+}
+
+address p {
+    font-size: 18px;
+}
